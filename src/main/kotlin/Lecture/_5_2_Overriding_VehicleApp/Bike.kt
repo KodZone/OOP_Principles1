@@ -1,4 +1,4 @@
-package Lecture._5_Inheritance_VehicleApp
+package Lecture._5_2_Overriding_VehicleApp
 
 // Another SUBCLASS of Vehicle
 class Bike(make: String, topSpeed: Int,

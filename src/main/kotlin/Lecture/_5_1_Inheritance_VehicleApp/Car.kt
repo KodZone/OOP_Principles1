@@ -1,4 +1,4 @@
-package Lecture._5_Inheritance_VehicleApp
+package Lecture._5_1_Inheritance_VehicleApp
 
 // SUBCLASS of Vehicle
 class Car(make: String, topSpeed: Int,

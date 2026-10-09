@@ -1,4 +1,4 @@
-package Lecture._5_Inheritance_VehicleApp
+package Lecture._5_1_Inheritance_VehicleApp
 
 // SUPERCLASS (Parent class)
 /* open class:
