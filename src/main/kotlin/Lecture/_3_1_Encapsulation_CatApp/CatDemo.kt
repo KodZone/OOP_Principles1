@@ -1,4 +1,4 @@
-package Lecture._3_Encapsulation_CatApp
+package Lecture._3_1_Encapsulation_CatApp
 
 // This file demonstrates OBJECTS and encapsulation behaviour
 fun main() {

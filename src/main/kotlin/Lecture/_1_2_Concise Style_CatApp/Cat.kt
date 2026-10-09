@@ -1,4 +1,4 @@
-package Lecture.`_1_Concise Style_CatApp`
+package Lecture.`_1_2_Concise Style_CatApp`
 
 // Constructor parameters also declare and initialise the properties.
 class Cat(val name: String, var age: Int, var weight: Int) {

@@ -1,4 +1,4 @@
-package Lecture._3_Why_Encapsulation_CatApp
+package Lecture._3_2_Why_Encapsulation_CatApp
 
 fun main() {
     // Create Sniffy with age 5 and starting weight 7.

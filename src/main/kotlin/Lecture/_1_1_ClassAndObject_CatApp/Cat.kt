@@ -1,4 +1,4 @@
-package Lecture._1_ClassAndObject_CatApp
+package Lecture._1_1_ClassAndObject_CatApp
 
 // A class is a blueprint for creating objects.
 class Cat(nameIn: String, ageIn: Int, weightIn: Int) {

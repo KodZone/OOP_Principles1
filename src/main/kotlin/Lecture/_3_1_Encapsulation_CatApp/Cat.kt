@@ -1,4 +1,4 @@
-package Lecture._3_Encapsulation_CatApp
+package Lecture._3_1_Encapsulation_CatApp
 
 // Encapsulation: hide object data and expose methods to use it.
 class Cat(

@@ -1,4 +1,4 @@
-package Lecture._3_Why_Encapsulation_CatApp
+package Lecture._3_2_Why_Encapsulation_CatApp
 
 // Hide the cat's data and control changes through public methods.
 class Cat(

@@ -1,4 +1,4 @@
-package Lecture._1_ClassAndObject_CatApp
+package Lecture._1_1_ClassAndObject_CatApp
 
 // This file demonstrates OBJECT creation and usage
 fun main() {

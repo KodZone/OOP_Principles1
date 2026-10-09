@@ -1,4 +1,4 @@
-package Lecture.`_1_Concise Style_CatApp`
+package Lecture.`_1_2_Concise Style_CatApp`
 
 // This file demonstrates OBJECT creation and usage
 fun main() {
