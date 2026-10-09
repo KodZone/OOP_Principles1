@@ -2,28 +2,26 @@ package Lecture._3_Encapsulation_CatApp
 
 // This file demonstrates OBJECTS and encapsulation behaviour
 fun main() {
+    // Create two objects, each with its own property values.
+    val clyde = Cat("Clyde", 2, 5)
+    val binnie = Cat("Binnie", 5, 4)
 
-    /* sniffy is an OBJECT (instance) of the Cat class.
-        We create it by calling the constructor. */
-    val sniffy = _root_ide_package_.Lecture._3_Encapsulation_CatApp.Cat("Sniffy", 5, 7)
+    // Direct access is blocked, even though weight uses var.
+    // clyde.weight = 10 // Error: weight is private.
 
-    // We can print the object directly. println(object) automatically uses toString()
-    println(sniffy)
+    // println() automatically calls each object's toString().
+    println(clyde)  // Clyde: age 2, weight 5.
+    println(binnie) // Binnie: age 5, weight 4.
 
-    /* Calling walk() multiple times:
-        walk() returns true/false instead of printing messages.
-        This allows the MAIN program to decide what to do with the result.
-        In a GUI app, you could show a popup instead of printing. */
-    for (i in 1..3) {
-        println(if (sniffy.walk()) "Walk successful" else "Walk failed")
-    }
+    // Change private data through the public walk() method.
+    clyde.walk()   // Clyde's weight becomes 4.
+    binnie.walk()  // Binnie's weight becomes 3.
 
-    // Show final state
-    println(sniffy)
+    // Display the updated state of each object.
+    println(clyde)
+    println(binnie)
 
-    /* IMPORTANT (ENCAPSULATION):
-        The following line would NOT compile because weight is PRIVATE.
-        This prevents outside code from setting unrealistic values like -1 */
-
-    // sniffy.weight = -1
+    // Only Clyde walks again; Binnie's weight stays at 3.
+    clyde.walk()   // Clyde's weight becomes 3.
+    println(clyde)
 }
