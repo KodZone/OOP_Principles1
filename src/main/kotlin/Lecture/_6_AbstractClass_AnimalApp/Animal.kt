@@ -1,4 +1,4 @@
-package Lecture._7_AbstractClass_AnimalApp
+package Lecture._6_AbstractClass_AnimalApp
 
 // ABSTRACT SUPERCLASS
 

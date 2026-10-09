@@ -1,4 +1,4 @@
-package Lecture._6_Inheritance_VehicleApp
+package Lecture._5_Inheritance_VehicleApp
 
 // Demonstrates inheritance and overriding
 fun main() {

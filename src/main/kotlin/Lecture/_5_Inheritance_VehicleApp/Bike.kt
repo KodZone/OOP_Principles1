@@ -1,8 +1,8 @@
-package Lecture._6_Inheritance_VehicleApp
+package Lecture._5_Inheritance_VehicleApp
 
 // Another SUBCLASS of Vehicle
 class Bike(make: String, topSpeed: Int, private val isOffRoad: Boolean, private val nGears: Int)
-    : Lecture._6_Inheritance_VehicleApp.Vehicle(make, topSpeed, 2) {          // Bikes always have 2 wheels
+    : Lecture._5_Inheritance_VehicleApp.Vehicle(make, topSpeed, 2) {          // Bikes always have 2 wheels
 
     // We DO NOT override move() here. Therefore Bike uses the original Vehicle version of move().
 
