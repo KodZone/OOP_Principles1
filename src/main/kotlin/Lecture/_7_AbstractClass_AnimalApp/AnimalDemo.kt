@@ -1,9 +1,7 @@
 package Lecture._7_AbstractClass_AnimalApp
 
 // Demonstrates abstract classes and polymorphism
-
 fun main() {
-
     // The following would NOT compile because Animal is abstract.
     // val a = Animal(5, 10.0)
 
