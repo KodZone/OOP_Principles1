@@ -1,4 +1,4 @@
-package Lecture._6_Inheritance_VehicleApp
+package Lecture._5_1_Inheritance_VehicleApp
 
 // SUPERCLASS (Parent class)
 /* open class:
@@ -6,11 +6,10 @@ package Lecture._6_Inheritance_VehicleApp
     The keyword 'open' allows this class to be extended. */
 open class Vehicle(protected val make: String, protected val topSpeed: Int,
     protected val nWheels: Int) {
-
     // protected: Accessible inside this class AND in subclasses.
 
-    // open function: Methods must also be marked 'open' if we want subclasses to override them.
-
+    /* open function: Methods must also be marked 'open'
+        if we want subclasses to override them.*/
     open fun move() {
         println("Moving along...")
     }
